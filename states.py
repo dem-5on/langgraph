@@ -1,7 +1,8 @@
+# my first langgraph project
 from langgraph.graph import StateGraph
-from typing import TypedDict, Dict
+from typing import TypedDict
 
-
+#schema
 class AgentState(TypedDict):
     message: str
 
